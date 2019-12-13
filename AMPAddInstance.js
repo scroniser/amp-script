@@ -1650,14 +1650,8 @@ function addEditor(reportID) {
          }
       });
 
-      // Two single use statuses - Blank and clear everything
-      $("#addLangBlank").on("click", function () {
-         var origVal = $("textarea[id*='element']:first").val();
-         var newText = "[Headline]\nADA_\n\n[Issue]\n\n[Build]\ngreenhouse-live-debug-R2019.12.00 #22 environment rqa[AMP]\nhttps://amp.levelaccess.net/public/reporting/view_module.php?module_id=15630518\n\nSeverity:\n\nPriority:\n\n[Expected Behavior]\n\n";
-         var origVal2 = $("textarea[id*='attribute']:first").add("textarea[id*='note']:first").val();
-         $("textarea[id*='element']:first").val(newText);
-      });
-
+      // One single use statuses - Clear everything
+      
       $("#clearFields").on("click", function () {
          $("textarea[id*='element']:first").val("");
          $("textarea[id*='attribute']:first").add("textarea[id*='note']:first").val("");
