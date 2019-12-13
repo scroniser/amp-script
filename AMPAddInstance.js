@@ -440,13 +440,13 @@ function dataTemplate() {
         keepOrig2: "true"
       },
       // Wells Fargo
-      {
+      { 
         id: "template-wells-64assets",
         text: "64 Assets",
         div: "Wells Fargo",
-        var1: "[Summary]\nADA_ one line, as before\n\n*Page/Component Name*\nModule Name, URL if applicable\n\n*Issue*\nsame as BAU audits, but can be less detailed if time-consuming to diagnose\n\n*Devices*\nDesktop/Phone/Tablet/Platform/App/Browser, Environment, App Build# if applicable\n\n*Pattern*\nPattern Name; uncertain if/how this AMP column is handled; delete if none\n\n",
+        var1: "[Summary]\nADA_ one line, as before\n\n*Page/Component Name*\nModule Name, URL if applicable\n\n*Issue*\nsame as BAU audits, but can be less detailed if time-consuming to diagnose\n\n*Devices*\nDesktop/Phone/Tablet/Platform/App/Browser, Environment, App Build# if applicable\n\n*Pattern*\nPattern Name; uncertain if/how this AMP column is handled; delete if none\n\n*Non-Compliant Example*\nOptional, delete if none, avoid lengthy blocks\n\n",
         keepOrig1: "true",
-        var2: "[Severity]\nJust the number, Severity 1-3\n\n*Fix Priority only if Sev 3*\nPriority 1 or Priority 2 or Priority 3\n\n*Screenshot in AMP?*\nYes/No\n\n*Recommended Changes*\n\n",
+        var2: "[Severity]\nJust the number, Severity 1-3\n\n*Fix Priority only if Sev 3*\nPriority 1 or Priority 2 or Priority 3\n\n*Screenshot in AMP?*\nYes/No\n\n*Recommended Changes*\n\n*Compliant Example*\nOptional, delete if none, avoid lengthy blocks, avoid too much\n\n",
         keepOrig2: "true" 
       },
       {
