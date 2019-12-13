@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         AMP - monkeying the tamper
 // @namespace    http://tampermonkey.net/
-// @version      5.1.9
+// @version      5.1.9.1
 // @description  Adds some much needed functionality to AMP.
-// @author       Alex and Kevin
+// @author       Santina (originally Alex and Kevin)
 // @match        *.levelaccess.net/public/reporting/*
 // @match        *.levelaccess.net/public/audit/*
 // @match        *.levelaccess.io/public/reporting/*
 // @match        *.levelaccess.io/public/audit/*
 // @grant        none
-// @updateURL    none
-// @downloadURL  https://www.nva11y.com/scripts/AMPAddInstance.js
+// @updateURL    https://raw.githubusercontent.com/scroniser/amp-script/master/AMPAddInstance.js
+// @downloadURL  https://raw.githubusercontent.com/scroniser/amp-script/master/AMPAddInstance.js
 // @supportURL   https://level-access.slack.com/messages/CK79W4PPU/
 // @icon         https://nva11y.com/images/tm-logo2.png
 // ==/UserScript==
