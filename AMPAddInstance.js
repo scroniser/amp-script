@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AMP - monkeying the tamper
 // @namespace    http://tampermonkey.net/
-// @version      5.1.9.2
+// @version      5.1.9.3
 // @description  Adds some much needed functionality to AMP.
 // @author       Santina (originally Alex and Kevin)
 // @match        *.levelaccess.net/public/reporting/*
